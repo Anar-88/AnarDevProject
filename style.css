@@ -7,7 +7,8 @@ margin-bottom: 200px;
 }
 
 .intro{
-  margin-left: 100px;
+  width: 1100px;
+  margin: auto;
 }
 header .item{
   flex: 1;
@@ -35,7 +36,7 @@ header h2{
 article .group{
 display: flex;
 flex-direction: row;
-margin-bottom: 50px;
+margin-bottom: 150px;
 }
 article .item{
   width: 350px;
@@ -101,20 +102,25 @@ footer{
 #portfolio{
   font-family: sans-serif; 
   font-size: 16px;
-  margin-left: 200px;
+  margin: auto;
+  width: 800px;
 }
 
 #portfolio .group{
  display: flex;
  flex-direction: column;
- width: 850px;
+ margin-bottom: 60px;
 }
 
 #portfolio .item{
-  
   flex: 1;
   margin: 10px;
   display: block;
+}
+#portfolio h2{
+  text-align: center;
+  margin: 60px 30px;
+  font-size: 34px;
 }
 
 @media all and (min-width: 800px) {
@@ -123,4 +129,5 @@ footer{
     flex-direction: row;
   }
 }
+
 
