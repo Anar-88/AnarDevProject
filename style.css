@@ -6,9 +6,8 @@ margin: 70px 0;
 margin-bottom: 200px;
 }
 
-.intro{
-  width: 1100px;
-  margin: auto;
+header img{
+  float: left;
 }
 header .item{
   flex: 1;
@@ -32,12 +31,17 @@ header h2{
   margin-right: 100px;
 }
 
+.intro{
+  width: 1100px;
+  margin: auto;
+}
 
 article .group{
 display: flex;
 flex-direction: row;
 margin-bottom: 150px;
 }
+
 article .item{
   width: 350px;
   flex: 1;
